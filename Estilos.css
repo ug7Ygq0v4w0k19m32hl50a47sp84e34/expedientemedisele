@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+ /*font-family: 'Raleway', sans-serif;*/
+ font-family: 'Open Sans', sans-serif;
+ color: gray;
+ line-height:1.7;
+ line-height:1.5;
+ font-size:15px;
+ background-color:#E8E8E8;
+}
+
+#patron {
+    width:100%; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+header{
+    
+}
+
+.ayuda
+{
+ /*border-radius: 15px;*/
+ width:100%; 
+ text-align:left;
+ margin-left:auto; 
+ margin-right:auto;
+ margin-bottom:10px; 
+ background-color:#ffffe6; 
+ background-color:#D9F3FF;
+ border:solid 0px #dcdccb;
+ padding:10px;
+ 
+	}
+
+.seprador
+{ width:100%;
+  text-align:center; 
+  height:30px;
+  vertical-align:central;
+	} 	
+
+
+.contenedor{
+    width:100%;
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+
+.contenedorHeader {
+    width:90%;
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p
+{
+ padding:5px;
+ align-content:space-between;
+	}
+
+#bienvenida{
+    background-color:white;
+    padding:30px;
+}
+
+#bandaDatos{
+    background-color:white;
+}
+
+
+
+.textBoxMultiLine{
+    padding:10px;
+}
+
+.ayuda
+{
+ /*border-radius: 15px;*/
+ width:100%; 
+ text-align:left;
+ margin-left:auto; 
+ margin-right:auto;
+ margin-bottom:10px; 
+ background-color:#ffffe6; 
+ background-color:#D9F3FF;
+ border:solid 0px #dcdccb;
+	} 
+
+
+.bandaBlanca {
+    background-color:white;
+}
+
+.bandaGris {
+    background-color:#F3F3F3;
+}
+
+
+
+h1{
+    /*float:left;*/
+}
+
+INPUT {
+    padding:10px;
+    border:solid 1px #DCDCDC; 
+}
+
+SELECT 
+{
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Verdana, Arial, sans-serif;
+	padding: 10px;
+    border-style     :solid;
+	border-width:1px;
+    border-color:#C9B4D6;     /*morado */ 
+    border-color:#7F9DB9;     /* azul*/
+    border-color:#A0B7CB;      /* azul claro */	
+    border:solid 1px #DCDCDC; 
+	}
+
+section{
+    width:100%;
+    margin-bottom:0px;
+    vertical-align:middle;
+}
+
+#quienesSomos{
+    text-align:left;
+}
+
+
+
+
+
+/*-------------------------------------------*/
+
+.botones {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+    width: 300px;
+    margin-top:10px;
+    border: 3px solid #fff;
+    text-align:center;
+
+    background-color:#589F0B; /*verde logo*/
+	font-weight:bold;
+	color:White;
+
+    text-decoration  :none;
+	font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-variant: normal;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight:300;
+	color:White;
+    cursor:pointer;
+    width:100%;
+}
+
+.botones:hover{
+    background:rgba(53,53,53,0.5);
+    background:black;
+    cursor:pointer;
+}
+
+
+
+
+.botonSiguiente {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+    width: 300px;
+    margin-top:10px;
+    border: 3px solid #fff;
+    text-align:center;
+
+    background-color:#589F0B; /*verde logo*/
+	font-weight:bold;
+	color:White;
+
+    text-decoration  :none;
+	font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-variant: normal;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight:300;
+	color:White;
+    cursor:pointer;
+    width:100%;
+}
+
+.botonSiguiente:hover{
+    background:black;
+    cursor:pointer;
+}
+
+
+.botonAnterior {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+    width: 300px;
+    margin-top:10px;
+    border: 3px solid #fff;
+    text-align:center;
+
+    background-color:white; /*verde logo*/
+    border:solid 1px #589F0B;
+	font-weight:bold;
+	color:#589F0B;
+
+    text-decoration  :none;
+	font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-variant: normal;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight:300;
+    cursor:pointer;
+    width:100%;
+}
+
+.botonAnterior:hover{
+    background:black;
+    cursor:pointer;
+    color:white;
+}
+
+
+.botonBorrar {
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+    padding-top:7px;
+    padding-bottom:7px;
+    margin-top:10px;
+    border: 3px solid #fff;
+    text-align:center;
+
+    background-color:white; /*verde logo*/
+    border:solid 1px red;
+	font-weight:bold;
+	color:red;
+
+    text-decoration  :none;
+	font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-variant: normal;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight:300;
+    cursor:pointer;
+}
+
+.botonBorrar:hover{
+    background:black;
+    cursor:pointer;
+    color:white;
+    border:solid 1px black;
+}
+
+
+
+
+
+/*------------------------------------------*/
+/*------------ Bandas ----------------------*/
+/*------------------------------------------*/
+
+/*img {
+    max-width:400px;
+}*/
+
+article {
+    margin:30px;
+    max-width:400px;
+    vertical-align:middle;
+}
+
+.bloqueTexto {
+    max-width:550px;
+}
+
+.recuadroBlanco {
+    background-color:white; 
+    padding:30px;
+}
+
+.recuadroGris {
+ background-color:rgba(213,216,221,0.5);
+ padding:30px;
+}
+
+#banda4Pantalla .contenedor {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/*#banda4Pantalla article {
+    margin:30px;
+    max-width:600px;
+}*/
+
+/*#banda4Pantalla img {
+    max-width:400px;
+}*/
+
+
+#banda5Pantalla .contenedor {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+#bandaDatosMedico  {
+    padding:30px;
+    background-color:#F3F3F3;
+    font-size:13px;
+    /*justify-content:center;
+    display:flex;
+    flex-wrap:wrap;*/
+}
+
+
+#bandaTratamientoTabla .contenedor {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:blue;
+}
+
+#bandaCitasMedicas .contenedor {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+#bandaLaboratorios .contenedor {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#bandaSignosVitales .contenedor {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+#banda7Pantalla .contenedor {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+#bandaRecomendacion {
+    text-align:center;
+}
+
+#bandaRecomendacion .contenedor {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#bandaRecomendacion article {
+    margin: 30px;
+    max-width: 300px;
+    border:solid 0px gray;
+    background-color:rgba(213,216,221,0.5);
+    text-align:left;
+    font-size:14px;
+    padding:10px;
+}
+
+#bandaRecomendacion img {
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    /*border: solid 7px #fff;*/
+    padding:5px;
+    
+}
+
+/*---Footer---------------------------------------*/
+#bandaIntroduccion {
+    text-align:center;
+}
+
+#bandaIntroduccion .contenedor {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#bandaIntroduccion article {
+    margin: 30px;
+    max-width: 300px;
+    border:solid 1px gray;
+    /*background-color:rgba(213,216,221,0.5);*/
+    border-color:rgba(213,216,221,0.5);
+    text-align:center;
+    font-size:14px;
+    padding:10px;
+}
+
+#bandaIntroduccion img {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border: solid 0px rgba(213,216,221,0.5);
+    padding:5px;
+    
+}
+
+#bandaIntroduccion b {
+    border-bottom:solid 0px #589F0B;
+    font-family: 'Thasadith', sans-serif;
+    font-size:25px;
+    font-weight:400;
+    color:#589F0B;
+    color: black;
+}
+
+
+
+
+
+footer {
+ background-color: rgba(50,55,62,0.9);
+ color:white;
+ font-family:Arial;
+ font-size:11px;
+}
+
+footer .contenedor1 {
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    
+ 
+    border-bottom:1px solid rgba(255,255,255,0.5);
+    border-bottom:1px solid rgba(100,100,100,0.5);
+
+    width:100%;
+}
+
+footer .contenedor2 {
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+    /*display:flex;
+    flex-wrap:wrap;
+    width:70%;*/
+}
+
+footer article {
+    max-width: 550px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+footer p {
+    line-height:1.5;
+}
+
+footer a {
+    color: white;
+    text-decoration:none;
+}
+
+footer a:hover {
+    color: green;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+
+/*---Responsive---------------------------------------*/
+
+/*@media (min-width:1024px){
+    .contenedor {
+        width:1000px;
+    }
+}*/

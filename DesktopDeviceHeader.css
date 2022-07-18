@@ -1,0 +1,334 @@
+
+
+#desktopDeviceHeader {
+    display:none;
+}
+
+#desktopDeviceHeader a {
+    width: 200px;
+
+	background-color:#6F4886;
+	font-weight:bold;
+	color:White;
+	border:solid 1px White;
+	
+	-webkit-appearance:none;
+    border-radius: 0;
+    /* -webkit-border-radius: 0; */
+    
+    text-decoration  :none;
+	font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-variant: normal;
+	font-size: 14px;
+	font-weight:300;
+	color:White;
+}
+
+#desktopDeviceHeader a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:12px;
+    width: 100px;
+    margin-top:10px;
+    border: 3px solid #fff;
+    text-align:center;
+
+    background-color:#6F4886;
+	font-weight:bold;
+	color:White;
+	border:solid 1px White;
+
+    text-decoration  :none;
+	font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-variant: normal;
+	font-size: 14px;
+	font-weight:300;
+	color:White;
+    float:right;
+    
+
+}
+
+#desktopDeviceHeader a:hover{
+    background:rgba(0,0,0,1);
+}
+
+
+
+/*----------------------------------------------------*/
+
+.tableLogo{
+  display: table;
+  width:100%;
+  border-collapse:collapse;
+  text-align:left;
+  margin-left:auto;
+  margin-right:auto;
+  padding:5px;
+  border:#f0f0f0 0px solid;
+}
+  .tableLogo-row{
+    display: table-row;
+  }
+  
+   .tableLogo1-cell{
+      display: table-cell;
+      border:#f0f0f0 0px solid;
+      width:40%;
+      text-align:left;
+      padding:20px;
+      vertical-align:middle;
+    }     
+  
+    .tableLogo2-cell{
+      display: table-cell;
+      border:#f0f0f0 0px solid;
+      width:60%;
+      text-align:right;
+      padding:10px;
+      padding-right:50px;
+      vertical-align:top;
+      
+     text-decoration  :none;
+	 font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+		font-size: 20px;
+		font-variant: normal;
+		line-height: 20px;
+		 
+		font-size: 20px;
+		font-weight:200;
+		color:black;
+    }
+    
+/*--------------------------------------*/
+
+.tableMenu{
+  display: table;
+  width:600px;
+  border-collapse:collapse;
+  text-align:left;
+  margin-left:auto;
+  margin-right:auto;
+  border:#f0f0f0 0px solid;
+}
+  .tableMenu-row{
+    display: table-row;
+  }
+  
+   .tableMenu1-cell{
+      display: table-cell;
+      border:#f0f0f0 0px solid;
+      /*width:20%;*/
+      text-align:center;
+      padding:0px;
+      vertical-align:middle;
+      
+      text-decoration  :none;
+	 font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+		font-size: 17px;
+		font-variant: normal;
+		line-height: 17px;
+		font-weight:400;
+		color:Green;
+		border-bottom:solid 0px Green;
+		border-right:solid 0px Green;
+    }     
+    
+  .tableMenu1-cell:hover{
+      display: table-cell;
+      border:#f0f0f0 0px solid;
+      /*width:20%;*/
+      text-align:center;
+      padding:0px;
+      vertical-align:middle;
+      
+      text-decoration  :none;
+	 font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+		font-size: 17px;
+		font-variant: normal;
+		line-height: 17px;
+		font-weight:400;
+		color:Green;
+		border-bottom:solid 1px Green;
+		cursor:pointer;
+    }         
+    
+    .tableMenu2-cell{
+      display: table-cell;
+      border:#f0f0f0 0px solid;
+      /*width:20%;*/
+      text-align:right;
+      padding:0px;
+      vertical-align:middle;
+      
+      text-decoration  :none;
+	 font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+		font-size: 17px;
+		font-variant: normal;
+		line-height: 17px;
+		font-weight:200;
+    } 
+    
+.ventasSoporte
+{
+	padding:0px;
+	padding-bottom:30px;
+	text-decoration  :none;
+	font-family : 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-variant: normal;
+	line-height: 20px;
+		 
+	font-size: 15px;
+	font-weight:400;
+    color:gray;
+		
+	}        
+    
+/*--------------------------------------*/
+
+
+
+@media (min-width:800px){
+
+  /*#mobileDeviceHeader {
+      display:none;
+  }*/
+
+  /*#desktopDeviceHeader {
+    display:block;
+  }*/
+
+  #banner {
+        margin-top: 0px;
+
+    }
+
+
+
+    #banner h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+article {
+    max-width:500px;
+}
+
+ .subtitulo {
+    font-size:30px;
+}
+
+    .contenedorHeader {
+        width: 98%;
+    }
+
+    .contenedor{
+    width: 100%;
+  }
+
+#bandaNosotros .contenedor {
+   width:90%;
+}
+
+#bandaConfiguraciones .contenedor {
+   width:90%;
+}
+
+#bandaPrivacidad .contenedor {
+    width:90%;
+}
+
+#bandaTerminosCondiciones .contenedor {
+    width:90%;
+}
+
+#bandaMain {
+    margin-top: 0px;
+}
+
+}
+
+@media (min-width:1300px) {
+
+#patron {
+    width:70%;
+}
+
+    .contenedorHeader {
+        width: 90%;
+    }
+
+    .contenedor{
+    width: 98%;
+  }
+
+ .subtitulo {
+    font-size:35px;
+}
+
+article {
+    max-width:600px;
+}
+
+#bandaNosotros .contenedor {
+   width:90%;
+}
+
+#bandaConfiguraciones .contenedor {
+   width:90%;
+}
+
+#bandaPrivacidad .contenedor {
+    width:90%;
+}
+
+#bandaTerminosCondiciones .contenedor {
+    width:90%;
+}
+
+}
+
+@media (min-width:1600px) {
+#patron {
+    width:50%;
+}
+
+  .contenedorHeader {
+        width: 80%;
+    }
+
+    .contenedor{
+    width: 90%;
+  }
+
+ .subtitulo {
+    font-size:35px;
+}
+
+img {
+    max-width:600px;
+}
+
+article {
+    margin:30px;
+    max-width:650px;
+}
+
+#bandaNosotros .contenedor {
+   width:80%;
+}
+
+#bandaConfiguraciones .contenedor {
+   width:80%;
+}
+
+#bandaPrivacidad .contenedor {
+    width:80%;
+}
+
+#bandaTerminosCondiciones .contenedor {
+    width:80%;
+}
+
+}
